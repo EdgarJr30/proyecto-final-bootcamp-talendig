@@ -68,15 +68,11 @@
             <nav class="navbar">
                 <ul class="navbar-list">
                     <li>
-                        <a href="#home" class="navbar-link has-after">Inicio</a>
+                        <a href="../../index.php" class="navbar-link has-after">Inicio</a>
                     </li>
 
                     <li>
-                        <a href="#collection" class="navbar-link has-after">Collection</a>
-                    </li>
-
-                    <li>
-                        <a href="../../views/shop/shop.php" class="navbar-link has-after">Tienda</a>
+                        <a href="../blog/blog.php" class="navbar-link has-after">Tienda</a>
                     </li>
 
                     <li>
@@ -84,7 +80,7 @@
                     </li>
 
                     <li>
-                        <a href="../../views/blog/blog.html" class="navbar-link has-after">Blog</a>
+                        <a href="../../views/blog/blog.php" class="navbar-link has-after">Blog</a>
                     </li>
 
                     <li>
@@ -115,7 +111,7 @@
 <div class="sidebar">
     <div class="mobile-navbar" data-navbar>
         <div class="wrapper">
-            <a href="#" class="logo">
+            <a href="../../index.php" class="logo">
                 <img src="../../assets/images/logo.png" width="179" height="26" alt="Glowing" />
             </a>
 
@@ -127,10 +123,6 @@
         <ul class="navbar-list">
             <li>
                 <a href="../../index.php" class="navbar-link" data-nav-link>Inicio</a>
-            </li>
-
-            <li>
-                <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
             </li>
 
             <li>
