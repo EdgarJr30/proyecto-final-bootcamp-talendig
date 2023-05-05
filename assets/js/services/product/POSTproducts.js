@@ -2,6 +2,9 @@ const createProduct = document.getElementById("login-form");
 
 const token = document.cookie.replace("token=", "");
 
+if (!token || token == "undefined") {
+  window.location.href = "../../../../index.html";
+}
 
 createProduct.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -24,6 +27,6 @@ createProduct.addEventListener("submit", async (e) => {
     console.log(data);
     console.log(userData);
 
-    window.location.href = "../../../../views/shop/shop.html";
+    window.location.replace("../../../../views/dashboard/product/index.php");
   } catch (error) {}
 });

@@ -1,3 +1,4 @@
+// (function () {
 const formLogin = document.getElementById("login-form");
 
 formLogin.addEventListener("submit", async (e) => {
@@ -21,7 +22,7 @@ formLogin.addEventListener("submit", async (e) => {
     document.cookie = `token=${token}`;
 
     if (res.status == 200) {
-      window.location.href = "../../../../views/shop/shop.html";
+      window.location.href = "../../../../views/shop/shop.php";
     }
   } catch (error) {}
 });
@@ -37,3 +38,4 @@ signUpButton.addEventListener("click", () => {
 signInButton.addEventListener("click", () => {
   container.classList.remove("right-panel-active");
 });
+// })();

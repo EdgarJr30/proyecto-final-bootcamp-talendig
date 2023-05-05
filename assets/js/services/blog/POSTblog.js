@@ -1,7 +1,7 @@
 const formBlog = document.getElementById("blog-form");
 const token = document.cookie.replace("token=", "");
 
-if (!token) {
+if (!token || token == "undefined") {
   window.location.href = "../../../../index.html";
 }
 
