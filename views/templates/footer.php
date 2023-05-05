@@ -108,8 +108,11 @@
                 </ul>
             </div>
 
-            <a href="#" class="logo">
+            <!-- <a href="#" class="logo">
                 <img src="../../assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing" />
+            </a> -->
+            <a href="../../index.php" class="logo">
+                <h1>Gadgets.do</h1>
             </a>
 
             <img src="../../assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100" />

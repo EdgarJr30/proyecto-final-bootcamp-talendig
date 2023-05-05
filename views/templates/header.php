@@ -1,4 +1,3 @@
-
 <header class="header" id="heading__section">
     <div class="alert">
         <div class="container">
@@ -23,13 +22,14 @@
             </div>
 
             <a href="../../index.php" class="logo">
-                <img src="../../assets/images/logo.png" width="179" height="26" alt="Glowing" />
+                <!-- <img src="../../assets/images/logo.png" width="179" height="26" alt="Glowing" /> -->
+                <h1>Gadgets.do</h1>
             </a>
 
             <div class="header-actions">
                 <a href="../../login.html" class="header-action-btn" aria-label="user">
-                    <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
-                    <p> <small>Iniciar sesion</small> </p>
+                    <!-- <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon> -->
+                    <p> <small>Login</small> </p>
                 </a>
 
                 <!-- <button id="logout-btn"></button> -->
@@ -44,7 +44,7 @@
                             // console.log('No esta logueado')
                         } else {
                             logoutBtn.innerHTML = `
-                            <button id="logout-btn">Logout</button>
+                    <button id="logout-btn">Logout</button>
                     `;
                         }
                     })();
@@ -72,7 +72,7 @@
                     </li>
 
                     <li>
-                        <a href="../blog/blog.php" class="navbar-link has-after">Tienda</a>
+                        <a href="../../views/shop/shop.php" class="navbar-link has-after">Tienda</a>
                     </li>
 
                     <li>

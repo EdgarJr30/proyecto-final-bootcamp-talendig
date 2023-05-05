@@ -142,7 +142,7 @@
           <ul class="collection-list">
             <li>
               <div class="collection-card has-before hover:shine">
-                <h2 class="h2 card-title">SmartPhones</h2>
+                <!-- <h2 class="h2 card-title">SmartPhones</h2> -->
 
                 <p class="card-text"></p>
 
@@ -160,7 +160,7 @@
 
             <li>
               <div class="collection-card has-before hover:shine">
-                <h2 class="h2 card-title">SmartWatch</h2>
+                <!-- <h2 class="h2 card-title">SmartWatch</h2> -->
 
                 <p class="card-text"></p>
 
@@ -171,14 +171,14 @@
                 </a>
 
                 <div class="has-bg-image" style="
-                      background-image: url('./assets/images/home/smartwatch.jpg');
+                      background-image: url('./assets/images/home/Apple-Watch-Blog-Image-1024x1024.png');
                     "></div>
               </div>
             </li>
 
             <li>
               <div class="collection-card has-before hover:shine">
-                <h2 class="h2 card-title">HeadPhones</h2>
+                <!-- <h2 class="h2 card-title">HeadPhones</h2> -->
 
                 <p class="card-text"></p>
 
