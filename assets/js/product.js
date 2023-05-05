@@ -1,4 +1,5 @@
 
+(function () {
 
 /* ========== Categories Products =========== */
 
@@ -50,3 +51,6 @@ async function loadData() {
 }
 
 loadmore.addEventListener('click', loadData);
+
+})();
+
