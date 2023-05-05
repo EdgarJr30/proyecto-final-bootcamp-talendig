@@ -13,57 +13,56 @@
 </head>
 
 <body>
-    <div class="app-container">
-        <?php include_once __DIR__ . '../../../dashboard/sidebar.php' ?>
+    <!-- <div class="app-container"> -->
+    <?php include_once __DIR__ . '../../../dashboard/sidebar.php' ?>
 
-        <div class="container">
-            <header>Crear un producto</header>
+    <div class="container">
+        <header>Crear un producto</header>
 
-            <form action="http://localhost:3000/products" method="POST" id="login-form">
-                <div class="form first">
-                    <div class="details personal">
+        <form action="http://localhost:3000/products" method="POST" id="login-form">
+            <div class="form first">
+                <div class="details personal">
 
-                        <div class="fields">
-                            <div class="input-field">
-                                <label for="title">Titulo</label>
-                                <input type="text" id="title" name="title" placeholder="Titulo del producto" required>
-                            </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="title">Titulo</label>
+                            <input type="text" id="title" name="title" placeholder="Titulo del producto" required>
+                        </div>
 
-                            <div class="input-field">
-                                <label for="description">Descripcion</label>
-                                <input type="text" id="description" name="description" placeholder="Descripcion del producto" required>
-                            </div>
+                        <div class="input-field">
+                            <label for="description">Descripcion</label>
+                            <input type="text" id="description" name="description" placeholder="Descripcion del producto" required>
+                        </div>
 
-                            <div class="input-field">
-                                <label for="price">Precio del producto</label>
-                                <input type="number" id="price" name="price" placeholder="Precio del producto" min="0" required>
-                            </div>
+                        <div class="input-field">
+                            <label for="price">Precio del producto</label>
+                            <input type="number" id="price" name="price" placeholder="Precio del producto" min="0" required>
+                        </div>
 
-                            <div class="input-field">
-                                <label for="image">Imagen del producto</label>
-                                <input type="text" id="image" name="image" placeholder="Imagen del producto" required>
-                            </div>
+                        <div class="input-field">
+                            <label for="image">Imagen del producto</label>
+                            <input type="text" id="image" name="image" placeholder="Imagen del producto" required>
+                        </div>
 
-                            <div class="input-field">
-                                <label>Categoria</label>
-                                <select>
-                                    <option disabled selected>Seleccionar Categoria</option>
-                                    <option>SmarthPhone</option>
-                                    <option>Tablets</option>
-                                    <option>Computadoras</option>
-                                </select>
-                            </div>
+                        <div class="input-field">
+                            <label>Categoria</label>
+                            <select>
+                                <option disabled selected>Seleccionar Categoria</option>
+                                <option>SmarthPhone</option>
+                                <option>Tablets</option>
+                                <option>Computadoras</option>
+                            </select>
                         </div>
                     </div>
-
-                    <button class="sumbit">
-                        <span class="btnText">Submit</span>
-                        <i class="uil uil-navigator"></i>
-                    </button>
                 </div>
-        </div>
+
+                <button class="sumbit">
+                    <span class="btnText">Submit</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </div>
+            <!-- </div> -->
         </form>
-    </div>
     </div>
     <script src="../../../assets/js/dashboard/createProduct.js"></script>
     <script src="../../../assets/js/services/product/POSTproducts.js"></script>
